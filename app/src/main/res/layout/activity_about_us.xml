@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asimz.humanassistantrobot.AboutUs"
+    android:background="#000000">
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="About Us"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cloud Computing model is using private data centers as a service. Cloud computing let go the enterprise and the end user from the specification of many details. In cloud computing there is a problem for latency-sensitive applications."
+        android:textColor="#ffffff"
+        android:textSize="21sp"
+        android:gravity="left"
+        android:paddingTop="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+</android.support.constraint.ConstraintLayout>
